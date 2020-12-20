@@ -4,10 +4,10 @@ import "./Aboutme.css"
 
 export default function Aboutme() {
     return (
-        <>
-        <h1 className="about-title">About me</h1>
+        <div id="aboutMe">
+        <h1 className="about-title" >About me</h1>
 
-        <div className="sectionAbout" id="aboutMe">
+        <div className="sectionAbout">
             <img className="sectionAbout-img" src='images/Raiza.jpg' alt="perfil" />
             <div className="description">
                 <p> 
@@ -21,7 +21,7 @@ Last year, in the midst of the worst world crisis of the last decades, I had my 
 
 I love programming, feeling like every minute of time I spend studying is an investment in myself and my code; I learn fast and I love seeing results, that's something that programming gives me. So the logical but not easy next step was to quit my job and find the best way to become a programmer.<br/><br/>
 
-I signed up for a programming bootcamp to acquire the necessary knowledge to be a developer; Thanks to the bootcamp and my constant motivation to continue learning and improving myself, I currently consider that I have a firm knowledge of Html, Css, Javascript, and react, my favorite javascript framework
+I signed up for a programming bootcamp to acquire the necessary knowledge to be a developer; due to the bootcamp and my constant motivation to continue learning and improving myself, I currently consider that I have a firm knowledge of Html, Css, Javascript, and react, my favorite javascript framework
                 </p>   
                 <div className="resume">
                     <a href="https://drive.google.com/file/d/1cUFF7lRRq0SWkHUGQXSgTwiyxZCF6nuW/view?usp=sharing" className="btn" target="_blank" rel="noreferrer"> Resume here!</a>
@@ -29,6 +29,6 @@ I signed up for a programming bootcamp to acquire the necessary knowledge to be 
             </div>
 
         </div>
-        </>
+        </div>
     )
 }
