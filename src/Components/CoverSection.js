@@ -7,7 +7,7 @@ export default function CoverSection() {
         <div className="cover-container" id="start">
         <Video src="/videos/mountain.mov" className="video" style={{position:"fixed"}} autoPlay loop muted/>
         <h1>Hello, I'm Raiza Escobar</h1>
-        <p> a web developer with passion for learning</p>
+        <p> a web developer with a passion for learning</p>
         </div>
     )
 }
