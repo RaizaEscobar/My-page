@@ -5,10 +5,10 @@ import "./Projects.css"
 function Cards() {
     return (
         <div className='cards' id="Myprojects">
-            <h4 class="wordCarousel">    
+            <h4 className="wordCarousel">    
         <span>Check out my projects:  </span>  
         <div> 
-            <ul class="flip4"> 
+            <ul className="flip4"> 
                 <li>Javascript</li>
                 <li>React.js</li>
                 <li>Css/Html</li> 

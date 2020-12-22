@@ -24,10 +24,10 @@ what I saw myself doing the rest of my life and the answer was...programming.
 
 I love programming, feeling like every minute of time I spend studying, is an investment in myself and my code; I learn fast and I love seeing results, that's something that programming gives me. 
 
-So the logical but not easy next step was to quit my job and find the best way to become a programmer.<br/><br/>
+So the logical, but not easy next step was to quit my job and find the best way to become a programmer.<br/><br/>
 
 I signed up for a programming bootcamp to acquire the necessary knowledge to be a developer; due to the bootcamp and my constant motivation to continue learning and improving myself, 
-I currently consider that I have a firm knowledge of Html, Css, Javascript, and react, my favorite javascript framework.
+I currently consider that I have a firm knowledge of Html, Css, Javascript, and react, my favorite javascript framework; so this is why I'm looking for ways to improve myself, add value as a Web Developer and be part of a team to learn and grow together.
                 </p>   
                 <div className="resume">
                     <a href="https://drive.google.com/file/d/1cUFF7lRRq0SWkHUGQXSgTwiyxZCF6nuW/view?usp=sharing" className="btn" target="_blank" rel="noreferrer"> Resume here!</a>
