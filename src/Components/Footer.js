@@ -14,8 +14,8 @@ function Footer() {
       </section>
       <div class='footer-links'>
         <div class='footer-link-items'>
-          <a href='https://www.linkedin.com/in/raizaescobar/'>  <i className='fab fa-linkedin' /></a>
-          <a href='https://github.com/RaizaEscobar'> <i className='fab fa-github' /></a>
+          <a href='https://www.linkedin.com/in/raizaescobar/' target="_blank" rel="noreferrer">  <i className='fab fa-linkedin' /></a>
+          <a href='https://github.com/RaizaEscobar' target="_blank" rel="noreferrer"> <i className='fab fa-github' /></a>
         </div>
 
       </div>
