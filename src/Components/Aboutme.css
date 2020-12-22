@@ -37,14 +37,21 @@
 }
 
 .btn{
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 10px;
-    border: 1px solid white;
-    transition: 0.3s;
+    border: 0.5px solid #939393;
+    transition: 0.3s; 
+    position: fixed;
+    right: 50px;
+    bottom: 80px;
+    z-index: 50;
+    border-radius: 10px;
+    background-color: white;
 }
 .btn:hover{
-    color: black;
+    color:  white;
+    background-color: #939393;
     border: 1px solid black;    
 }
   
@@ -65,5 +72,10 @@
 
     .description p{
         margin-bottom: 20px;
+    }
+
+    .btn {
+        bottom: 13px;
+        right: 30px;
     }
   }
