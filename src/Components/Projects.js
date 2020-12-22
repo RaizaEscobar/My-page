@@ -5,7 +5,17 @@ import "./Projects.css"
 function Cards() {
     return (
         <div className='cards' id="Myprojects">
-            <h1>Check out my projects</h1>
+            <h4 class="wordCarousel">    
+        <span>Check out my projects:  </span>  
+        <div> 
+            <ul class="flip4"> 
+                <li>Javascript</li>
+                <li>React.js</li>
+                <li>Css/Html</li> 
+                <li>Node.js </li>
+            </ul>
+        </div>  
+    </h4>
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items ">
@@ -15,6 +25,7 @@ function Cards() {
                             label='react.js, node.js'
                             path='https://split-and-share.herokuapp.com/'
                             color="#F2F1EC"
+                            githubLink="https://github.com/RaizaEscobar/splitandshare-frontend"
                         />
                         <CardItem
                             src='images/wit.png'
@@ -23,6 +34,8 @@ function Cards() {
                             label='hbs, node.js'
                             path='https://women-in-tech-ih.herokuapp.com/'
                             color="#0c7489"
+                            githubLink="https://github.com/RaizaEscobar/Women-in-tech"
+
                         />
                     </ul>
                     <ul className="cards__items ">
@@ -32,6 +45,7 @@ function Cards() {
                             label="css/html, js"
                             path="https://raizaescobar.github.io/Ironhack-Web-App/"
                             color="#002642"
+                            githubLink="https://github.com/RaizaEscobar/Moveki"
                         >
                         </CardItem>
                         <CardItem
