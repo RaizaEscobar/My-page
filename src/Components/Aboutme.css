@@ -1,5 +1,5 @@
 #aboutMe {
-   background: linear-gradient(45deg, #B5C9C3, #cfd8d7, #e7cfcd, #9f9aa4, rgba(234,236,198,.7)) 0 0 / 1000% no-repeat;
+   background: linear-gradient(45deg, #F4F4F4, #F6F5F2, #f8f7f1, #f5f4f7, #f3f6f2) 0 0 / 1000% no-repeat;
 	-webkit-animation: gradientAnimation 40s ease infinite;
 	animation: gradientAnimation 40s ease infinite;
 }
@@ -18,14 +18,12 @@
 .sectionAbout{
     min-height:500px;
     padding: 4rem;
-   /*  background: rgb(184, 174, 174); */
     display: flex;
     align-items: center;
     margin: 0 auto;
 }
 
 .about-title{
-    color:#ffffff;
     text-align: center;
     padding-top: 40px;
 }
@@ -36,7 +34,6 @@
     justify-content: space-around;
     margin-left: 40px;
     text-align: justify;
-    color: #ffffff;
 }
 
 .description p{
