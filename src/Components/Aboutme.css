@@ -1,5 +1,4 @@
 #aboutMe {
-   /*  background: linear-gradient(-45deg, #B5C9C3, #cfd8d7, #e7cfcd, #9f9aa4); */
    background: linear-gradient(45deg, #B5C9C3, #cfd8d7, #e7cfcd, #9f9aa4, rgba(234,236,198,.7)) 0 0 / 1000% no-repeat;
 	-webkit-animation: gradientAnimation 40s ease infinite;
 	animation: gradientAnimation 40s ease infinite;
