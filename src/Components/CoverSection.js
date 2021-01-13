@@ -5,9 +5,8 @@ import Video from "react-background-video-player"
 export default function CoverSection() {
     return (
         <div className="cover-container" id="start">
-        <Video src="/videos/mountain.mov" className="video" style={{position:"fixed"}} autoPlay loop muted/>
-        <h1>Hello, I'm Raiza Escobar</h1>
-        <p> a web developer with a passion for learning</p>
+        <h1 className="title-animation">Hello, I'm Raiza Escobar</h1>
+        <p  className="title-animation"> a web developer with a passion for learning</p>
         </div>
     )
 }
