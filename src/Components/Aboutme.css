@@ -1,14 +1,31 @@
+#aboutMe {
+   /*  background: linear-gradient(-45deg, #B5C9C3, #cfd8d7, #e7cfcd, #9f9aa4); */
+   background: linear-gradient(45deg, #B5C9C3, #cfd8d7, #e7cfcd, #9f9aa4, rgba(234,236,198,.7)) 0 0 / 1000% no-repeat;
+	-webkit-animation: gradientAnimation 40s ease infinite;
+	animation: gradientAnimation 40s ease infinite;
+}
+
+@-webkit-keyframes gradientAnimation {
+	0%   { background-position: 0% 30%, 0 0;}
+	50%  { background-position: 100% 70%, 0 0;}
+	100% { background-position: 0% 30%, 0 0;}
+}
+@keyframes gradientAnimation {
+	0%   { background-position: 0% 30%, 0 0;}
+	50%  { background-position: 100% 70%, 0 0;}
+	100% { background-position: 0% 30%, 0 0;}
+}
+
 .sectionAbout{
     min-height:500px;
     padding: 4rem;
-    background: rgb(184, 174, 174);
+   /*  background: rgb(184, 174, 174); */
     display: flex;
     align-items: center;
     margin: 0 auto;
 }
 
 .about-title{
-    background: rgb(184, 174, 174);
     color:#ffffff;
     text-align: center;
     padding-top: 40px;
