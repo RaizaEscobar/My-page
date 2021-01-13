@@ -1,6 +1,5 @@
 import React from 'react'
 import "./CoverSection.css"
-import Video from "react-background-video-player"
 
 export default function CoverSection() {
     return (
