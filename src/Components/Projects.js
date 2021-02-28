@@ -49,8 +49,8 @@ function Cards() {
             <CardItem
               src="images/moveki.png"
               text="Mo Ve Ki: If choosing between so many restaurant options stresses you out, you are tired of always going to the same ones you know or you simply like adventure, then Moveki is for you."
-              label="css/html, js"
-              path="https://raizaescobar.github.io/Moveki/"
+              label="react.js, tailwind, react-bootstrap"
+              path="https://moveki.netlify.app/"
               color="#002642"
               githubLink="https://github.com/RaizaEscobar/Moveki"
             ></CardItem>
